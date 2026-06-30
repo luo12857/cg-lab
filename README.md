@@ -20,7 +20,7 @@
 ## 环境要求
 
 - Python 3.8+
-- Taichi 1.7+（Work5、Work7）
+- Taichi 1.7+（Work1、Work2、Work5、Work7）
 - PyTorch（Work6、Work8）
 - PyTorch3D（Work6）
 - smplx（Work8）
@@ -30,22 +30,35 @@
 每个实验都有独立的 README.md 文件，详细说明了运行方式和参数配置。
 
 ```bash
-# 进入对应实验目录
+# Work1 - 粒子系统
+cd Work1/src/Work0
+python main.py
+
+# Work2 - 几何变换
+cd Work2
+python cg.py
+
+# Work3 - 贝塞尔曲线
 cd Work3
 python 贝塞尔曲线.py
 
+# Work4 - Phong 光照模型
 cd Work4
 python Phong光照模型.py
 
+# Work5 - 光线追踪
 cd Work5
 python 光线追踪.py
 
+# Work6 - 可微渲染
 cd Work6
 python 可微渲染.py
 
+# Work7 - 质点弹簧模型
 cd Work7
 python 质点弹簧模型.py
 
+# Work8 - SMPL 模型与 LBS
 cd Work8
 python run_lbs_lab.py
 ```
@@ -54,6 +67,22 @@ python run_lbs_lab.py
 
 ```
 CG-lab/
+├── Work1/           # 粒子系统
+│   ├── README.md
+│   ├── pyproject.toml
+│   ├── uv.lock
+│   └── src/
+│       └── Work0/
+│           ├── __init__.py
+│           ├── config.py
+│           ├── main.py
+│           ├── physics.py
+│           ├── cglab.mp4
+│           └── bhvxRuYd_converted.gif
+├── Work2/           # 几何变换
+│   ├── README.md
+│   ├── cg.py
+│   └── result.gif
 ├── Work3/           # 贝塞尔曲线
 │   ├── README.md
 │   ├── 贝塞尔曲线.py
@@ -77,15 +106,24 @@ CG-lab/
 │   └── 质点弹簧系统.gif
 ├── Work8/           # SMPL 模型与 LBS
 │   ├── README.md
-│   └── run_lbs_lab.py
-└── .gitignore
+│   ├── run_lbs_lab.py
+│   └── outputs/
+│       ├── all_joint_weights.png
+│       ├── comparison_grid.png
+│       ├── stage_a_template_weights.png
+│       ├── stage_b_shaped_joints.png
+│       ├── stage_c_pose_offsets.png
+│       ├── stage_d_lbs_result.png
+│       └── summary.txt
+├── .gitignore
+└── README.md
 ```
 
 ## 注意事项
 
 1. **模型文件**：Work6 和 Work8 需要额外的模型文件（`cow.obj`、`SMPL_NEUTRAL.pkl`），这些文件较大，请自行下载。
 2. **依赖安装**：部分实验需要额外安装依赖，详见各实验的 README.md。
-3. **GPU 加速**：Work5、Work7 使用 Taichi 进行 GPU 加速，Work6、Work8 使用 PyTorch，建议使用 GPU 运行以获得更好的性能。
+3. **GPU 加速**：Work1、Work2、Work5、Work7 使用 Taichi 进行 GPU 加速，Work6、Work8 使用 PyTorch，建议使用 GPU 运行以获得更好的性能。
 
 ## 许可证
 
