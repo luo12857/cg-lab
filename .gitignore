@@ -1,0 +1,29 @@
+# 编辑器配置
+.vscode/
+.claude/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 配置文件
+imgui.ini
+
+# 模型文件（用户自行下载）
+models/
+*.pkl
+
+# 输出目录（运行时生成）
+output_meshes/
+outputs/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
