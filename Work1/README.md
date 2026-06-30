@@ -82,7 +82,6 @@ CG-Lab/
    ```
 
 
-## 项目截图
+## 演示效果
 
-![输入图片说明](src/Work0/bhvxRuYd_converted.gif) 
-<video src="src/Work0/cglab.mp4" controls></video>
+![粒子交互效果](粒子交互.gif)
