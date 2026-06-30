@@ -57,5 +57,5 @@
 - 所有渲染结果均为实时生成，旋转操作流畅无卡顿。
 ### 2. 结果
 <div align="center">
-  <img src="https://raw.githubusercontent.com/luo12857/bnucg-lab/main/result.gif" width="600" alt="MVP变换3D立方体渲染效果">
+  <img src="旋转与变换.gif" width="600" alt="MVP变换3D立方体渲染效果">
 </div>
