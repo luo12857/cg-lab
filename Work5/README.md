@@ -1,5 +1,7 @@
 # 光线追踪 (Ray Tracing) — Whitted Style
 
+**罗晓政202411081010**
+
 基于 **Taichi** 编程框架实现的 GPU 加速 Whitted 风格光线追踪器，包含实时交互 GUI。
 
 ## 效果展示

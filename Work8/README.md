@@ -1,5 +1,7 @@
 # 计算机图形学实验八：SMPL 模型与 LBS 骨骼动画
 
+**罗晓政202411081010**
+
 ## 实验目的
 
 本实验实现了一个完整的 SMPL（Skinned Multi-Person Linear Model）骨骼蒙皮动画系统，主要目的包括：
