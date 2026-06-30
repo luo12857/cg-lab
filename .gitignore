@@ -17,7 +17,9 @@ models/
 
 # 输出目录（运行时生成）
 output_meshes/
+# Work8/outputs/ 包含实验结果图片，需要上传
 outputs/
+!Work8/outputs/
 
 # Python 缓存
 __pycache__/
